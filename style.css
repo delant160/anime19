@@ -1,37 +1,57 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #eee;
     margin: 0;
     padding: 0;
 }
 header {
-    background-color: #202020;
+    background-color: #222;
     color: white;
     padding: 1rem;
     text-align: center;
 }
 nav a {
-    color: white;
+    color: #ccc;
     margin: 0 10px;
     text-decoration: none;
 }
 main {
     padding: 1rem;
 }
-.grid {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2rem;
-}
-.grid div {
-    flex: 1;
-    margin: 0 10px;
-}
 footer {
-    background-color: #f1f1f1;
+    background-color: #222;
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
+    color: #aaa;
 }
-iframe {
-    border-radius: 10px;
+.hero {
+    text-align: center;
+    padding: 2rem;
+}
+.hero h2 {
+    font-size: 2rem;
+}
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 10px 20px;
+    background-color: #e63946;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.episode-list, .download-list {
+    list-style: none;
+    padding: 0;
+}
+.episode-list li, .download-list li {
+    padding: 10px;
+    margin: 5px 0;
+    background: #333;
+    border-radius: 5px;
+}
+a {
+    color: #00bfff;
 }
